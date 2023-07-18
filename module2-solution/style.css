@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.chick{
+    background-color: aqua;
+    border: black 1px solid ;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    float: right ;
+}
+.beef{
+    background-color: plum;
+    border: black 1px solid ;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    float: right ;
+}
+.sushi{
+    background-color: pink;
+    border: black 1px solid ;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    position: relative;
+    float: right ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.item{
+    border: black 1px solid ;
+    padding: 25px 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: darkgray;
+}
+
+.d{
+    margin: 10px;
+}
+
+.row{
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12{
+        float: left;
+        
+    }
+    .col-md-6{
+        width: 50%;
+
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 767px) {
+    .col-sm-12{
+        float: left;
+        width: 100%;
+    }
+   
+    
+}
